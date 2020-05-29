@@ -146,6 +146,7 @@ class DomainDirectiveFactory:
     # A mapping from node kinds to domain directives and their names.
     cpp_classes = {
         'variable': (CPPMemberObject, 'var'),
+        'property': (CPPMemberObject, 'var'),
         'class': (CPPClassObject, 'class'),
         'struct': (CPPClassObject, 'struct'),
         'interface': (CPPClassObject, 'class'),
